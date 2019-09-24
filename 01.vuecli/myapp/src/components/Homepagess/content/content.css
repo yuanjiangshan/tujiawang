@@ -1,0 +1,126 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.el-carousel__item h3 {
+  color: #475669;
+  font-size: 18px;
+  opacity: 0.75;
+  line-height: 300px;
+  margin: 0;
+}
+
+.el-carousel__item:nth-child(2n) {
+  background-color: #99a9bf;
+}
+
+.el-carousel__item:nth-child(2n+1) {
+  background-color: #d3dce6;
+}
+.content{
+  position: relative;
+}
+.one1{
+  height: 640px;
+  background-color: yellowgreen;
+  position: relative;
+  top: -60px;
+  z-index: -1;
+}
+.one2{
+  width: 941px;
+  height: 61px;
+  margin: 0 auto;
+  top: 400px;
+  background-color: white;
+  /* position: relative; */
+  position: relative;
+  display: flex;
+  align-items: center;
+  top: -200px;
+  z-index: 6000;
+  list-style: none;
+}
+.one2 li:nth-child(1){
+  width: 297px;
+  height: 59px;
+  /* background-color: royalblue; */
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  border: 0 none;
+}
+#shuru{
+  color: #99a9bf;
+  height: 40px;
+  padding-left: 10px;
+  border: 0px none;
+}
+.el-icon-location-information{
+  font-size: 30px;
+  color: #475669;
+}
+.one3{
+  position: absolute;
+  margin-left: 40px;
+}
+.one2 li:nth-child(2){
+  width: 316px;
+  height: 59px;
+  position: relative;
+  /* background-color: yellowgreen; */
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  border: 0 none;
+}
+.el-icon-date{
+  font-size: 30px;
+  color: #475669;
+}
+.one2 li:nth-child(2) span{
+  position: absolute;
+  width: 2px;
+  height: 40px;
+  /* background-color: #99a9bf; */
+  right: 6px;
+}
+.one2 li:nth-child(3){
+  width: 316px;
+  height: 59px;
+  position: relative;
+  /* background-color: yellowgreen; */
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  border: 0 none;
+}
+.el-icon-user{
+  font-size: 30px;
+  color: #475669;
+}
+.one2 li:nth-child(4){
+  width: 316px;
+  height: 59px;
+  position: relative;
+  /* background-color: yellow; */
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  border: 0 none;
+}
+.one2 .one4{
+  width: 136px;
+  height: 61px;
+  position: absolute;
+  right: 0px;
+}
+.one2 li{
+  margin-left:6px ;
+}
+.el-icon-arrow-down{
+  position: absolute;
+  right: 0px;
+  font-size: 30px;
+  color: #475669;
+}
