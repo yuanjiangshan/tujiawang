@@ -1,0 +1,49 @@
+.box{
+  width: 1919px;
+  height: 950px;
+  /* background-image: url('https://staticfile.tujia.com/PassportSite/Images/body02.jpg');  */
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+.loginBox{
+  width: 1190px;
+  height: 615px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+.navBox{
+  height: 61px;
+  width: 100%;
+  margin: 0 auto;
+  line-height: 61px;
+  display: flex;
+  flex-direction: row;
+}
+.leftBox{
+  margin-top: 24px;
+  width: 7px;
+  height: 12px;
+  background-image: url('https://staticfile.tujia.com/passportsite/Images/back.png')
+}
+.nav_a1{
+  margin-left: 5px;
+  text-decoration: none;
+  color: white;
+}
+.nav_a2{
+  margin-left: 5px;
+  color: white;
+}
+.imgBox{
+  margin: 0 auto;
+  width: 24.5%;
+  height: 114px;
+  background-image: url('https://staticfile.tujia.com/passportsite/Images/tujia-log.png')
+}
+.lBox{
+  width: 100%;
+  height: 406px;
+  margin-top: 30px;
+  background-color: aqua;
+}

@@ -3,6 +3,7 @@
     <!-- 引入的组件导航栏 -->
     <navigationbar></navigationbar>
     <contentes></contentes>
+    <!-- <router-view/> -->
   </div>
 </template>
 
@@ -14,6 +15,9 @@ export default {
   components: {
     navigationbar,
     contentes
+  },
+  mounted () {
+    this.$router.push('/login')
   }
 }
 </script>
@@ -23,12 +27,5 @@ export default {
   margin: 0px;
   padding: 0px;
 }
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  color: red
-}
+
 </style>

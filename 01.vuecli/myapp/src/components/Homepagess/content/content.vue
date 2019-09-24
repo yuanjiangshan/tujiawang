@@ -1,14 +1,11 @@
 <template>
   <div id="content">
     <div class="one1">
-      <el-carousel trigger="click" height="640px" width="1920px">
+      <el-carousel trigger="click" height="640px" width="1920px" >
         <el-carousel-item v-for="( item , index ) in src" :key="index">
           <el-image :src="item.url" fit="fill"></el-image>
         </el-carousel-item>
       </el-carousel>
-      <!-- <div class="one2">
-
-      </div>-->
     </div>
     <ul class="one2">
       <li>

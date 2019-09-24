@@ -1,26 +1,25 @@
 import Vue from 'vue'
 import 'element-ui/lib/theme-chalk/index.css'
-import ElementUI from 'element-ui'
 import Router from 'vue-router'
-import HelloWorld from '@/components/HelloWorld'
-// import navigationbar from '../components/Homepagess/navigationbar/navigationbar.vue'
-// import NavigationBar from '@/components/Homepage/NavigationBar/NavigationBar'
+// 引入Element组件
+import ElementUI from 'element-ui'
 
-Vue.use(Router)
+// 引入axios组件
+import axios from 'axios'
+import VueAxios from 'vue-axios'
+// 引入登陆，注册页面
+import login from '../components/Landing/Login/login.vue'
+// 调用引入的element组件
 Vue.use(ElementUI)
+Vue.use(Router)
+Vue.use(VueAxios, axios)
 
 export default new Router({
   routes: [
     {
-      path: '/',
-      name: 'HelloWorld',
-      component: HelloWorld
+      path: '/login',
+      name: 'login',
+      component: login
     }
-    // , {
-    //   path: '/text',
-    //   name: 'NavigationBar',
-    //   component: NavigationBar
-    // }
-
   ]
 })
