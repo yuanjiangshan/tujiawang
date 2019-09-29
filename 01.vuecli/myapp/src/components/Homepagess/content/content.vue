@@ -87,13 +87,13 @@
       <div class="three_gongyu">
         <h3>玩转民宿公寓</h3>
         <div class="three_gongyu_image">
-          <el-link :underline="false" class="three_gongyu_link" v-for="(item,index) in gongyu" :key="index">
+          <router-link to="./Party" :underline="false" class="three_gongyu_link" v-for="(item,index) in gongyu" :key="index">
             <img :src="item.url" class="three_gongyu_url">
             <div :class="item.class1">
               <p class="p1">{{item.p1}}</p>
               <p class="p2">{{item.p2}}</p>
             </div>
-          </el-link>
+          </router-link>
         </div>
       </div>
     </div>

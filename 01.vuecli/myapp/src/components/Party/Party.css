@@ -1,0 +1,409 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#box{
+    width: 100%;
+    height: 100%;
+}
+.header_nav{
+    width: 100%;
+    height: 40px;
+}
+.header_content{
+    width: 1190px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.header_logo{
+    width: 120px;
+    height: 33px;
+    text-decoration: none;
+    background-image: url('https://promotionstaticfile.tujia.com/Common/images/tujia-logo.png');
+    position: relative;
+    left: -5px;
+}
+.header_list{
+    display: flex;
+    list-style: none;
+    font-size: 12px;
+    margin-left: 5px;
+}
+.header_list a{
+    padding: 15px;
+    color: #666666;
+}
+.header_loginBox{
+    display: flex;
+    list-style: none;
+    font-size: 12px;
+    position: absolute;
+    right: 0px;
+}
+.header_login{
+    padding-right: 10px;
+    border-right: 1px solid #666666;
+    color: #666666;
+}
+.header_login:hover{
+    text-decoration: 
+}
+.header_rigest{
+    padding-left: 10px;
+    color: #ff6600;
+}
+
+
+.theme{
+    width: 100%;
+    position: relative;
+    /* height: 350px; */
+    /* background-color: #777677; */
+}
+.theme img{
+    width: 100%;
+    /* height: 100%; */
+}
+.login_logo{
+    padding: 3px 5px 0px 5px;
+    background-color: #777677;
+    position: absolute;
+    top: 10px;
+    right: 20%;
+    border-radius: 3px;
+}
+.iconfont{
+    font-size: 24px;
+    color: white;
+}
+.iconfont:hover{
+    color:#FF6600; 
+}
+
+
+.content_nav{
+    width: 100%;
+    height: 50px;
+    position: relative;
+}
+.content_title{
+    width: 1190px;
+    height: 100%;
+    margin: 0 auto;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.titleBox:nth-child(1){
+    margin-left: 40px;
+}
+.titleBox{
+    position: relative;
+}
+.titleList{
+    color: #666666;
+    font-size: 18px;
+    padding-right: 70px;
+}
+.titleMore{
+    position: absolute;
+    top: -12px;
+    right: -60px;
+    font-size: 18px;
+    color: #666666;
+}
+.titleList:hover{
+    color: #FF6600;
+}
+.titleMore:hover{
+    color: #FF6600;
+}
+.icon-xiangxia{
+    color: #666666;
+    font-size: 18px;
+}
+
+.moreList{
+    width: 400px;
+    height: 80px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: -50px;
+}
+.hoverList{
+    display: none;
+}
+.moreTitle{
+    display: flex;
+    /* align-items: center; */
+    list-style: none;
+}
+.moreContent{
+    color: #333333;
+    padding:5px 15px;
+    font-size: 14px;
+}
+.moreContent:hover{
+    background-color: aliceblue;
+}
+
+
+
+.content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ecf2f4;
+}
+.city_wrap{
+    width: 1190px;
+    display: flex;
+    flex-direction: column;
+}
+.city_title_box{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.city_title_name{
+    font-size:30px;
+}
+.city_intro{
+    height: 200px;
+    background-image: url('https://promotionstaticfile.tujia.com/Common/images/TopicHWCms/title_bg.png');
+    background-size: 100%;
+    display: flex;
+}
+.city_intro2{
+    height: 200px;
+    background-image: url('https://promotionstaticfile.tujia.com/Common/images/TopicHWCms/title_bg_contrary.png');
+    background-size: 100%;
+    display: flex;
+}
+.city_title_img{
+    width: 450px;
+    height: 140px;
+    margin-left: 35px;
+    align-self: center;
+}
+.city_content{
+    width:625px;
+    margin: 50px 0px 0px 50px;
+    font-size: 14px;
+    text-align: left;
+}
+
+.house_wrap{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+}
+.house_top_box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.house_top{
+    width: 580px;
+    /* height: 358px; */
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+    position: relative;
+}
+.house_bottom{
+    width: 370px;
+    height: 358px;
+    list-style: none;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+}
+.house_pic{
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+.house_pic img{
+    width: 100%;
+    height: 100%;
+}
+.dis_box{
+   position: absolute;
+   left: 0px;
+   bottom: 0px;
+   width: 100%;
+   height: 40px;
+   text-align: left;
+   line-height: 40px; 
+   background: rgba(0,0,0,0.45);
+   color: white;
+   font-size: 14px;
+}
+.dis_box p{
+    padding-left:15px; 
+}
+.icon-like{
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    font-size: 32px;
+    z-index: 9999;
+    filter: grayscale(100);
+}
+.house_info{
+    width: 100%;
+    padding: 15px 0px 10px 0px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    background-color: white;
+}
+.house_info2{
+    width: 370px;
+    padding: 15px 0px 10px 0px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    background-color: white;
+}
+.info_title{
+    font-size: 18px;
+    margin:0px 0px 10px 15px;
+}
+.info_title a{
+    color: #333333;
+}
+.info_dis{
+    font-size: 14px;
+    margin-left: 15px;
+}
+.icon-dingwei{
+    font-size: 14px;
+    color: #666666;
+}
+.info_price{
+    width: 94%;
+    margin: 0 auto;
+    border-top: 1px dashed #dddddd;
+    color: #FF3300;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px 0px 0px 0px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.pirce_number{
+    font-size: 26px;
+    font-family: 'Microsoft Yahei';
+}
+.book{
+    color: white;
+    font-size: 16px;
+    padding: 5px 30px;
+    background-color: #FF6600;
+    border-radius: 2px;
+}
+.data_info{
+    width: 100%;
+    height: 24px;
+    padding-top: 10px;
+}
+.house_bottom_box{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.bottom{
+    width: 370px;
+}
+.know_more{
+    width: 160px;
+    height: 35px;
+    line-height: 35px;
+    margin: 75px auto 0px;
+    font-size: 14px;
+    border: 1px solid #CCCCCC;
+    background: white;
+}
+.icon-you{
+    font-size: 16px;
+    color: #CCCCCC;
+}
+
+
+.footer{
+    width: 100%;
+    background: #ECF2F4;
+    padding-top: 40px;
+}
+.footer_box{
+    width: 1190px;
+    height: 100px;
+    margin: 0 auto;
+    border-top: 1px solid #CCCCCC;
+    display: flex;
+    justify-content: space-between;
+}
+.footer_left{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.left_list{
+    width: 250px;
+    height: 30px;
+}
+.left_list a{
+    color: #666666;
+    font-size: 12px;
+}
+.footer_left p{
+    color: #999999;
+    font-size: 12px;
+}
+.left_num{
+    width: 120px;
+    font-size: 12px;
+    color: #666666;
+}
+.foot_right{
+    width: 40%;
+    height: 100%;
+    display: flex;
+}
+.right_number{
+    width: 100px;
+    text-align: left;
+    color: #666666;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.right_number p{
+    border-right: 1px solid #CCCCCC;
+    padding: 5px 0px;
+}
+.right_overseas{
+    text-align: left;
+    color: #666666;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.right_overseas p{
+    padding: 5px 20px;
+}
+.overseas_num{
+    margin-left: 20px;
+}
