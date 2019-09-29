@@ -115,7 +115,7 @@
         <div class="six_baozhang_div">
           <el-link :underline="false" class="six_baozhang_image" v-for="(item,index) in baozhang" :key="index">
             <div class='six_baozhang_jlt'>
-              <img src="../../../../build/page-index.d836e82.png" :class="item.class2">
+              <img src="https://wpp.tujia.com/static/img/page-index.d836e82.png" :class="item.class2">
             </div>
             <p class="six_baozhang_p">
               {{item.title1}}
@@ -180,6 +180,69 @@
           <el-link :underline="false" class="eigth_xiaomimi_div_link2" @click="Righthua">
             <i class="el-icon-arrow-right"></i>
           </el-link>
+        </div>
+        <div class="two5_a">
+          <el-button class="two6_1">
+            <el-link href="https://www.tujia.com/pwa/thursday/sale.htm" target="_blank">查看更多 ></el-link>
+          </el-button>
+        </div>
+      </div>
+    </div>
+    <div class="nine">
+      <div class="nine1">
+        <div class="nine1_div1">
+          <span>国内客服电话</span>
+          <span>400-188-1234</span>
+          <span>海外及港澳台客服电话</span>
+          <span>0086-571-28089451</span>
+          <span>0086-10-80697258</span>
+        </div>
+        <div class="nine_div2">
+          <div class="nine_div2_div1">
+            <span>下载APP</span>
+            <div class="nine_div2_div1_one1">
+              <img src="https://wpp.tujia.com/static/img/page-common.e4f224a.png" class="nine_image">
+            </div>
+          </div>
+          <div class="nine_div2_div2">
+            <span>关注微信小程序</span>
+            <div class="nine_div2_div1_one2">
+              <img src="https://wpp.tujia.com/static/img/page-common.e4f224a.png" class="nine_image2">
+            </div>
+          </div>
+          <div class="nine_div2_div3">
+            <span class="guangzhu">关注商家</span>
+            <a href="" class="wb_images">
+              <img src="https://wpp.tujia.com/static/img/page-common.e4f224a.png" class="nine_image3">
+            </a>
+            <span class="wx_images">
+              <img src="https://wpp.tujia.com/static/img/page-common.e4f224a.png" class="nine_image4">
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="nine3">
+        <span>
+          © 2018 tujia.com途家版权所有 津ICP备17006480号 京公网安备11010502027120
+          <a href="">营业执照</a>
+          <a href="">途家保障计划</a>
+        </span>
+        <div class="dimian">
+          <a href="" class="dimian_div1">
+              <img src="https://wpp.tujia.com/static/img/page-common.e4f224a.png" class="nine_image5">
+          </a>
+          <a href="" class="dimian_div2">
+              <img src="https://wpp.tujia.com/static/img/page-common.e4f224a.png" class="nine_image6">
+
+          </a>
+          <a href="" class="dimian_div3">
+              <img src="https://wpp.tujia.com/static/img/page-common.e4f224a.png" class="nine_image7">
+
+          </a>
+          <a href="" class="dimian_div4">
+              <img src="https://wpp.tujia.com/static/img/page-common.e4f224a.png" class="nine_image8">
+
+          </a>
         </div>
       </div>
     </div>
