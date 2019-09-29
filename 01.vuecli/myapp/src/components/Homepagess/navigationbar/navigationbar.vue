@@ -18,7 +18,7 @@
             <a href class="one5-a1">注册</a>
           </li>
           <li>
-            <a href='http://192.168.3.100:5555/login' class="one5-a2">登录</a>
+            <router-link to="/login" class="one5-a2">登陆</router-link>
           </li>
           <li>
             <span class="one5-span1">免费发布房屋</span>
@@ -33,7 +33,7 @@
         </ul>
       </div>
     </div>
-    <!-- <router-view/> -->
+    <router-view/>
   </div>
 </template>
 
@@ -43,6 +43,11 @@ export default {
   data () {
     return {
 
+    }
+  },
+  methods: {
+    fun () {
+      return this.$router.push('/login')
     }
   }
 }

@@ -5,7 +5,7 @@
         <div class="leftBox">
           <div></div>
         </div>
-        <a href="" :class="styles.class3">返回首页</a>
+        <router-link to="./" :class="styles.class3">返回首页</router-link>
       </div>
       <div class="imgBox"></div>
       <LoginPage></LoginPage>
