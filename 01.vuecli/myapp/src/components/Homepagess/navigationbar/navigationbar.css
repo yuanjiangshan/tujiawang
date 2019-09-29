@@ -14,7 +14,8 @@
 .one1{
   position: relative;
   height: 60px;
-  background-color:rgba(0, 0, 0, 0.5)
+  background-color:rgba(0, 0, 0, 0.5);
+  z-index: 300;
 }
 .one2{
   width: 1190px;
@@ -160,6 +161,8 @@
   width: 170px;
   height: 100px;
   background-color: white;
+  position: relative;
+  top: -10px;
 }
 .one7-color{
   margin-top: 10px;

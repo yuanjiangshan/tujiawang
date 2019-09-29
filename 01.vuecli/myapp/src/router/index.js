@@ -9,8 +9,8 @@ import axios from 'axios'
 import VueAxios from 'vue-axios'
 // 引入登陆，注册页面
 import login from '../components/Landing/Login/login.vue'
+import indexs from '../components/Homepagess/index.vue'
 // 调用引入的element组件
-import indexs from '../App.vue'
 Vue.use(ElementUI)
 Vue.use(Router)
 Vue.use(VueAxios, axios)
@@ -26,7 +26,6 @@ export default new Router({
       path: '/',
       name: 'indexs',
       component: indexs
-
     }
   ]
 })

@@ -1,23 +1,15 @@
 <template>
   <div id="app">
     <!-- 引入的组件导航栏 -->
-    <navigationbar></navigationbar>
-    <contentes></contentes>
-    <!-- <router-view/> -->
+    <router-view/>
   </div>
 </template>
 
 <script>
-import navigationbar from './components/Homepagess/navigationbar/navigationbar.vue'
-import contentes from './components/Homepagess/content/content.vue'
 export default {
   name: 'App',
-  components: {
-    navigationbar,
-    contentes
-  },
   mounted () {
-    this.$router.push('/login')
+    this.$router.push('/')
   }
 }
 </script>
