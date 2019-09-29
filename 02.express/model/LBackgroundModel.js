@@ -15,6 +15,7 @@ class LBackgroundMode extends sqlBase{
         console.log("[查询] - ", err.message);
         return;
       }
+      console.log(result)
       callback(result);
     });
   }
