@@ -3,7 +3,8 @@
     <!-- 导航栏 -->
     <div class="header_nav">
       <div class="header_content">
-        <a href="https://www.tujia.com/" target="_blank" title="途家网首页" class="header_logo"></a>
+        <!-- <a href="https://www.tujia.com/" target="_blank" title="途家网首页" class="header_logo"></a> -->
+        <router-link to="/" class="header_logo"></router-link>
         <ul class="header_list">
           <li>
             <a :href="headerList[0].url">{{headerList[0].title}}</a>
@@ -14,7 +15,7 @@
         </ul>
         <ul class="header_loginBox">
           <li>
-            <a href="#" class="header_login">{{headerList[2].title}}</a>
+            <router-link to="/login" class="header_login">{{headerList[2].title}}</router-link>
           </li>
           <li>
             <a href="#" class="header_rigest">{{headerList[3].title}}</a>
@@ -38,7 +39,7 @@
     <div class="content_nav" id="contentNav">
       <ul class="content_title">
         <li class="titleBox">
-          <a href="#0" class="titleList">{{beijingList[0].title}}</a>
+          <a href="#beijing" class="titleList">{{beijingList[0].title}}</a>
         </li>
         <li class="titleBox">
           <a href="#1" class="titleList">{{contentList[0].title}}</a>
@@ -81,7 +82,7 @@
     </div>
 
     <div class="content">
-      <div class="city_wrap">
+      <div class="city_wrap" id="beijing">
         <div class="city_title_box">
           <p class="city_title_name">{{beijingList[0].title}}</p>
           <div class="city_intro">
@@ -702,9 +703,6 @@ export default {
     }
   },
   mouted () {
-    this.axios.get(`http://localhost:8888/`).then(response => {
-      console.log(response)
-    })
   },
   methods: {
     show: function () {

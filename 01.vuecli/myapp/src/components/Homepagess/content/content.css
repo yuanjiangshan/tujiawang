@@ -280,6 +280,7 @@
 justify-content: space-around;
 }
 .three_gongyu_link{
+  display: block;
 width: 280px;
 height: 420px;
 /* background-color: chartreuse; */
