@@ -18,7 +18,7 @@
             <a href class="one5-a1">注册</a>
           </li>
           <li>
-            <a href class="one5-a2">登录</a>
+            <a href='http://192.168.3.100:5555/login' class="one5-a2">登录</a>
           </li>
           <li>
             <span class="one5-span1">免费发布房屋</span>
