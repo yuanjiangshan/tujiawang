@@ -677,6 +677,7 @@ position: relative;
 .nine_image{
   position: absolute;
   top: -144px;
+  left: 0px;
 }
 .nine_image2{
   position: absolute;
@@ -784,6 +785,7 @@ left: -230px;
 .nine_image5{
   position: absolute;
   right: 0px;
+  top: 0px;
 }
 .nine_image6{
   position: absolute;
