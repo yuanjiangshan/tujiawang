@@ -1,0 +1,281 @@
+.box{
+  width: 760px;
+  height: 406px;
+  background-color: rgb(0, 0, 0,.6); 
+  margin: 0 auto;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.liBox{
+  width: 86%;
+  height: 84%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+}
+.leftBox{
+  width: 50%;
+  height: 100%; 
+  border-right: 1px dashed #555;
+  display: flex;
+  flex-direction: column;
+}
+.leftBox1{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.navABox{
+  width: 90%;
+  height: 27px;
+  display: flex;
+  justify-content: space-around ;
+}
+.navA1{
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  display: inline-block;
+}
+.navA3{
+  font-size: 16px;
+  color: #B2B2B2;
+  display: inline-block;
+}
+.navA2{
+  text-decoration: none;
+  font-size: 16px;
+  color: #B2B2B2;
+  display: inline-block;
+}
+.bottomBox{
+  width:90%;
+  height:319px;
+  display: flex;
+  flex-direction: column;
+}
+.inputBox{
+  margin-top: 20px;
+}
+.testBox{
+  width:100%;
+  height: 40px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.inputBox_test{
+  width: 55%;
+  height: 100%;
+}
+.testBox .imgsBox{
+  width: 40%;
+  height: 100%;
+}
+.imgs{
+  width:100%;
+  height: 100%;
+}
+.selectBox{
+  width: 100%;
+  height: 18px;
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.radioBox{
+  /* color: #B4B4B4 !important; */
+  padding-left: -10px;
+  /* text-color:'#B4B4B4';
+  fill:'#B4B4B4'; */
+}
+.forgeter1{
+  text-decoration: none;
+  color: #3B83CB;
+  display: inline-block;
+  font-size: 12px;
+}
+.forgeter2{
+  color: #3B83CB;
+  display: inline-block;
+  font-size: 12px;
+}
+.logins{
+  margin-top: 15px;
+  font-size: 18px;
+  height: 36px;
+  line-height: 9px;
+}
+.buttontBox1{
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  background-color: #D9ECFF;
+  color: #3B83CB;
+  border:none;
+}
+.buttontBox2{
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  background-color: #3B83CB;
+  color: #FFFFFF;
+  border:none;
+}
+.colors{
+  color: #FAFAFA;
+}
+.CooperationBox{
+  width: 80%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.iconBox{
+  width: 100%;
+  height: 55px;
+  /* background-color: aquamarine; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.icon{
+  background-color: #CCCCCC;
+  height: 45px;
+  width: 45px ;
+  border-radius: 50%;
+}
+.qq_btn{
+  width: 45px;
+  height: 45px;
+  background-image: url('../../../../public/img/icons-s0480c79068.png');
+  background-repeat: no-repeat;
+  background-position: 0 -82px;
+}
+.qq_btn1{
+  width: 45px;
+  height: 45px;
+  background-image: url('../../../../public/img/icons-s0480c79068.png');
+  background-repeat: no-repeat;
+  background-position: 0 -127px;
+}
+.wb_btn{
+  width: 45px;
+  height: 45px;
+  background-image: url('../../../../public/img/icons-s0480c79068.png');
+  background-repeat: no-repeat;
+  background-position: 0 -232px;
+}
+.wb_btn1{
+  width: 45px;
+  height: 45px;
+  background-image: url('../../../../public/img/icons-s0480c79068.png');
+  background-repeat: no-repeat;
+  background-position: 0 -277px;
+}
+.wx_btn{
+  width: 45px;
+  height: 45px;
+  background-image: url('../../../../public/img/icons-s0480c79068.png');
+  background-repeat: no-repeat;
+  background-position: 0 -322px;
+}
+.wx_btn1{
+  width: 45px;
+  height: 45px;
+  background-image: url('../../../../public/img/icons-s0480c79068.png');
+  background-repeat: no-repeat;
+  background-position: 0 -367px;
+}
+.a_b{
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+.registeredBox{
+  width:100%;
+  height: 12px;
+  line-height: 12px;
+  font-size: 12px;
+  margin-top: 20px;
+  color: #b4b4b4;
+}
+.registeredBox a{
+  text-decoration: none;
+  color: #3B83CB;
+}
+.imgStyle{
+  width:258px;
+  height:80px;
+  margin-top: 20px;
+}
+.imgStyle a{
+  display: inline-block;
+  width:100%;
+  height: 100%;
+}
+.appStyle{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 100%;
+  height: 14px;
+  font-size: 14px;
+  color: #b4b4b4;
+}
+.ORcodeBox{
+  width: 100%;
+  height: 79px;
+  display: flex;
+  justify-content: space-between;
+}
+.ORcode{
+  width: 60%;
+  height: 79px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  
+}
+.downloadBox{
+  border: 1px solid white;
+  width: 100%;
+  height: 32px;
+  border-radius: 2px;
+  display: flex;
+}
+.AndroidImg{
+  display: inline-block;
+  margin: 10px 10px 0 15px;
+}
+.AndroidImgBox{
+  width: 39px;
+  height: 26px;
+}
+.downTextBox{
+  width: 90%;
+  height: 32px;
+  line-height: 32px;
+  font-size: 12px;
+}
+.downText{
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  line-height: 32px;
+  font-size: 12px;
+  text-decoration:none;
+  color: #b4b4b4;
+}
+.downText1{
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  line-height: 32px;
+  font-size: 12px;
+  color: #b4b4b4;
+}
