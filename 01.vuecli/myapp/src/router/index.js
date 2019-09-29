@@ -1,9 +1,10 @@
 import Vue from 'vue'
 import 'element-ui/lib/theme-chalk/index.css'
 import Router from 'vue-router'
+// import HelloWorld from '../components/HelloWorld.vue'
+import Party from '../components/Party.vue'
 // 引入Element组件
 import ElementUI from 'element-ui'
-
 // 引入axios组件
 import axios from 'axios'
 import VueAxios from 'vue-axios'
@@ -17,6 +18,11 @@ Vue.use(VueAxios, axios)
 
 export default new Router({
   routes: [
+    {
+      path: '/party',
+      name: 'party',
+      component: Party
+    },
     {
       path: '/login',
       name: 'login',
